@@ -1,0 +1,49 @@
+.Container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1b1e26;
+  color: #ffffff;
+}
+
+.LogoLink {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.LogoImg {
+  width: 2.3rem;
+  height: 2.3rem;
+}
+
+.Title {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.Menu {
+  display: flex;
+  gap: 0.3rem;
+  font-weight: 700;
+}
+
+.MenuItem {
+  padding: 0.5rem 1rem;
+  transition: all 0.4s linear;
+}
+
+.MenuItem:hover {
+  border-bottom: 1px solid #f5f903;
+}
+
+.Active {
+  border: 1px solid #f5f903;
+  border-radius: 4px;
+}
