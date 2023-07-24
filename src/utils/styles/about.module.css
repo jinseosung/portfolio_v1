@@ -1,0 +1,95 @@
+.Container {
+  padding: 4rem;
+  text-align: center;
+}
+
+.Title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 1rem auto;
+  position: relative;
+  z-index: 1;
+  width: 14rem;
+}
+
+.Divider {
+  width: 100%;
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 5px;
+  background-color: var(--color-accent);
+  z-index: -1;
+}
+
+.Description {
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+  line-height: 1.8rem;
+}
+
+.Majors {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 2.5rem 0;
+}
+
+.Major {
+  width: 33%;
+  background-color: var(--color-primary-variant);
+  padding: 2rem 1rem;
+  color: var(--color-text);
+  border-radius: 1rem;
+  transition: all 0.2s ease;
+  cursor: default;
+  box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.38);
+}
+
+.Major:hover {
+  transform: translateY(-10px);
+}
+
+.Icon {
+  font-size: 4rem;
+  margin: 1rem 0;
+  color: var(--color-accent);
+}
+
+.MajorTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.MajorDescription {
+  line-height: 1.4rem;
+}
+
+.Jobs {
+  text-align: start;
+}
+
+.Job {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.JobImg {
+  width: 150px;
+  object-fit: cover;
+}
+
+.JobName {
+  color: var(--color-primary);
+  margin-bottom: 0.5rem;
+}
+
+.JobDescription {
+  color: var(--color-primary);
+  font-size: 0.8rem;
+}

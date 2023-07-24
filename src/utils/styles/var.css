@@ -1,7 +1,7 @@
 :root {
   /* App Colors */
   --color-primary: var(--color-black);
-  --color-primany-variant: var(--color-gray);
+  --color-primary-variant: var(--color-gray);
   --color-accent: var(--color-yellow);
   --color-accent-variant: var(--color-pink);
   --color-text: var(--color-white);
