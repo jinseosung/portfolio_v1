@@ -1,0 +1,49 @@
+.Container {
+  padding: 4rem;
+  text-align: center;
+  background-color: var(--color-primary);
+  color: var(--color-text);
+}
+
+.Title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 1rem auto 2rem auto;
+  position: relative;
+  z-index: 1;
+  width: 14rem;
+  color: var(--color-text);
+}
+
+.Description {
+  font-size: 1.3rem;
+  margin: 0.5rem 0;
+}
+
+.Divider {
+  width: 100%;
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 5px;
+  background-color: var(--color-accent-variant);
+  z-index: -1;
+}
+
+.Links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+.Link {
+  transition: all 0.2s ease;
+}
+
+.Link:hover {
+  color: var(--color-accent-variant);
+}
