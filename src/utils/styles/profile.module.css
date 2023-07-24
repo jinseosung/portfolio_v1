@@ -1,0 +1,40 @@
+@import "./var.css";
+
+.Container {
+  background-color: var(--color-primary);
+  background-image: var(--home-bg-svg);
+  color: var(--color-text);
+  padding: 5rem 11rem;
+  padding-top: 7rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.ProfileImg {
+  background: var(--home-avatar-svg);
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  position: relative;
+  bottom: -80px;
+  border-radius: 30%;
+}
+
+.Title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  line-height: 4rem;
+}
+
+.Description {
+  font-size: 1.3rem;
+  margin: 0.5rem 0;
+  position: relative;
+}
+
+.DescriptionStrong {
+  color: var(--color-accent-variant);
+}

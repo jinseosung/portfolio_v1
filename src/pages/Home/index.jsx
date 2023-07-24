@@ -1,7 +1,11 @@
-import Header from "../../components/header";
+import Profile from "../../components/profile";
 
 const Home = () => {
-  return <Header />;
+  return (
+      <div>
+        <Profile />
+      </div>
+  );
 };
 
 export default Home;
