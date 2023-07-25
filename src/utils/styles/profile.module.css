@@ -1,15 +1,18 @@
-@import "./var.css";
-
 .Container {
   background-color: var(--color-primary);
   background-image: var(--home-bg-svg);
   color: var(--color-text);
-  padding: 5rem 11rem;
-  padding-top: 7rem;
-  text-align: center;
+}
+
+.Wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
   display: flex;
+  text-align: center;
   justify-content: space-between;
   align-items: center;
+  padding: 5rem 11rem;
+  padding-top: 7rem;
   overflow: hidden;
 }
 
@@ -32,7 +35,6 @@
 .Description {
   font-size: 1.3rem;
   margin: 0.5rem 0;
-  position: relative;
 }
 
 .DescriptionStrong {
