@@ -1,0 +1,32 @@
+.Container {
+  padding: 4rem;
+  text-align: center;
+  background-color: var(--color-primary);
+}
+
+.Wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.Title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 1rem auto 4rem auto;
+  position: relative;
+  z-index: 1;
+  width: 11rem;
+  color: var(--color-text);
+}
+
+.Divider {
+  width: 100%;
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 5px;
+  background-color: var(--color-accent-variant);
+  z-index: -1;
+}
