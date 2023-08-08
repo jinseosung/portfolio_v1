@@ -11,21 +11,21 @@ const Header = () => {
         </Link>
         <nav>
           <ul className={styles.Menu}>
-            <Link className={`${styles.MenuItem} ${styles.Active}`} to="#about">
+            <a className={styles.MenuItem} href="#profile">
               <li>HOME</li>
-            </Link>
-            <Link className={styles.MenuItem} to="#about">
+            </a>
+            <a className={styles.MenuItem} href="#about">
               <li>A PROPOS</li>
-            </Link>
-            <Link className={styles.MenuItem} to="#projects">
+            </a>
+            <a className={styles.MenuItem} href="#projects">
               <li>PROJETS</li>
-            </Link>
-            <Link className={styles.MenuItem} to="testimonials">
+            </a>
+            <a className={styles.MenuItem} href="#testimonials">
               <li>TEMOIGNAGES</li>
-            </Link>
-            <Link className={styles.MenuItem} to="#contact">
+            </a>
+            <a className={styles.MenuItem} href="#contact">
               <li>CONTACT</li>
-            </Link>
+            </a>
           </ul>
         </nav>
     </div>

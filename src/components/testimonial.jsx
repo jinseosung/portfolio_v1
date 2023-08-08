@@ -3,7 +3,7 @@ import ThierryImg from "../assets/thierry.png";
 
 const Testimonial = () => {
   return (
-    <section className={styles.Container}>
+    <section className={styles.Container} id="testimonials">
       <h3 className={styles.Title}>
         Témoignages<span className={styles.Divider}></span>
       </h3>

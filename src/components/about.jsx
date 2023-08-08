@@ -5,7 +5,7 @@ import logoOpenClassrooms from "../assets/logo_openclassrooms.png";
 
 const About = () => {
   return (
-    <section className={styles.Container}>
+    <section className={styles.Container} id="about">
       <div className={styles.Wrapper}>
         <h3 className={styles.Title}>
           À propos

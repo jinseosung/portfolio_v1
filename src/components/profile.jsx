@@ -4,18 +4,18 @@ import TypeIt from "typeit-react";
 
 const Profile = () => {
   return (
-    <section className={styles.Container}>
+    <section className={styles.Container} id="profile">
       <div className={styles.Wrapper}>
         <img className={styles.ProfileImg} src={ProfileImg} alt="profile" />
         <div>
           <h2
             className={styles.Title}
-            aria-label="Bonjour, je suis développeuse web junior, Jinseo"
+            aria-label="Bonjour, je suis développeuse web, Jinseo"
           >
             Bonjour <br /> je suis{" "}
             <TypeIt options={{ loop: true, spped: 7 }}>
               <strong className={styles.DescriptionStrong}>
-                développeuse web junior,
+                développeuse web,
               </strong>
             </TypeIt>{" "}
             Jinseo
