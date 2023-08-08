@@ -23,6 +23,19 @@
 .Description {
   font-size: 1.3rem;
   margin: 0.5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.DescriptionIcon {
+  font-size: 1.5rem;
+  transition: all 0.2s ease;
+}
+
+.DescriptionIcon:hover {
+  color: var(--color-accent-variant);
 }
 
 .Divider {
