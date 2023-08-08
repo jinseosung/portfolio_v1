@@ -1,0 +1,109 @@
+.Modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.Container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.Container::-webkit-scrollbar-thumb {
+  height: 30%;
+  background: #4b4a54;
+  border-radius: 10px;
+}
+
+.Container::-webkit-scrollbar-track {
+  background: rgba(33, 122, 244, 0.1);
+}
+
+.Container {
+  width: 80%;
+  height: 100%;
+  max-width: calc(100vw - 200px);
+  max-height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 2.5rem;
+  border-radius: 1rem;
+  position: relative;
+  background-color: var(--color-primary);
+  overflow: auto;
+}
+
+.Icon {
+  font-size: 1.5rem;
+  color: var(--color-text);
+  cursor: pointer;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+
+.ContentContainer {
+  display: flex;
+  gap: 1.5rem;
+  color: var(--color-text);
+  margin-bottom: 3rem;
+}
+
+.Img {
+  width: 49%;
+  background-color: var(--color-text);
+}
+
+.InfoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.Title {
+  font-size: 2rem;
+  color: var(--color-accent-variant-dark);
+  font-weight: 700;
+  position: relative;
+}
+
+.SubTitle {
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.Tech {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.Tech span {
+  padding: 0.5rem 1.5rem;
+  border-radius: 15px;
+  background-color: var(--color-accent-variant-dark);
+}
+
+.Link {
+  padding: 0.5rem 1.5rem;
+  border-radius: 15px;
+  background-color: var(--color-accent-variant-dark);
+}
+
+.ProjectImagesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.ProjectImg {
+  width: 49%;
+  object-fit: contain;
+  object-position: top left;
+}
