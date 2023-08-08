@@ -27,6 +27,6 @@
   top: 50%;
   transform: translate(-50%, -50%);
   height: 5px;
-  background-color: var(--color-accent-variant);
+  background-color: var(--color-accent-variant-dark);
   z-index: -1;
 }
