@@ -2,7 +2,8 @@
   {
     "id": 1,
     "title": "Mon Vieux Grimoire",
-    "description": "Back-end du site",
+    "subTitle": "Back-end du site avec NodeJS",
+    "description": "J'ai pris en charge la mise en place des routes et des middlewares à l'aide de Node.js, tout en utilisant MongoDB pour créer une API REST robuste et fonctionnelle dans le cadre de ma formation chez OpenClassrooms",
     "skills": ["NodeJS", "MongoDB"],
     "github": "https://github.com/jinseosung/p7_oc",
     "image": "../img/mon_vieux_grimoire/1.webp",
@@ -18,7 +19,8 @@
   {
     "id": 2,
     "title": "Kasa",
-    "description": "Front-end du site avec React",
+    "subTitle": "Front-end du site avec React",
+    "description": "En utilisant React, j'ai créé une expérience utilisateur fluide sur différentes pages, notamment la page d'accueil, les pages détaillant chaque logement avec leurs caractéristiques uniques, ainsi que la page informative dans le cadre de ma formation chez OpenClassrooms",
     "skills": ["HTML", "CSS", "JavaScript", "React"],
     "github": "https://github.com/jinseosung/p6_oc",
     "image": "../img/kasa/1.webp",
@@ -32,7 +34,8 @@
   {
     "id": 3,
     "title": "Booki",
-    "description": "Création de la page d'accueil avec HTML et CSS",
+    "subTitle": "Réalisation de la page d'accueil",
+    "description": "Réalisation de la page d'accueil d'une agence de voyage en utilisant les langages HTML et CSS dans le cadre de ma formation chez OpenClassrooms",
     "skills": ["HTML", "CSS"],
     "github": "https://jinseosung.github.io/p2_oc/",
     "image": "../img/booki/1.webp",
@@ -41,8 +44,9 @@
   },
   {
     "id": 4,
-    "title": "Jeu de carotte",
-    "description": "Développement d'un jeu simple avec JavaScript",
+    "title": "Jeu de clic sur les carottes",
+    "subTitle": "Développement d'un jeu simple avec JavaScript",
+    "description": "J'ai développé un mini-jeu interactif en utilisant JavaScript. Dans la deuxième phase du jeu, le joueur doit rapidement cliquer sur toutes les carottes qui apparaissent à l'écran.",
     "skills": ["HTML", "CSS", "JavaScript"],
     "github": "https://jinseosung.github.io/carrots-click-game/",
     "image": "../img/carrot_game/1.webp",
