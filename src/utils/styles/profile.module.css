@@ -29,7 +29,6 @@
 .Title {
   font-size: 3rem;
   margin-bottom: 1rem;
-  line-height: 4rem;
 }
 
 .Description {
@@ -56,12 +55,7 @@
 
   .Title {
     font-size: 2.5rem;
-    line-height: 3rem;
     margin-bottom: 0.5rem;
-  }
-
-  .Description {
-    line-height: 1.8rem;
   }
 }
 

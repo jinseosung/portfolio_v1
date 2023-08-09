@@ -52,7 +52,7 @@ const Carousel = (props) => {
               <img src={project.image} alt={project.title} />
               <div className="project__container">
                 <p className="project__title">{project.title}</p>
-                <p className="project__description">{project.description}</p>
+                <p className="project__description">{project.subTitle}</p>
               </div>
             </div>
           </SwiperSlide>

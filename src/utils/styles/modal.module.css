@@ -31,7 +31,7 @@
   max-height: calc(100vh - 60px);
   display: flex;
   flex-direction: column;
-  padding: 3rem 2.5rem;
+  padding: 3rem;
   border-radius: 1rem;
   position: relative;
   background-color: var(--color-primary);
@@ -59,7 +59,7 @@
 }
 
 .Img {
-  width: 49%;
+  width: 48%;
   background-color: var(--color-text);
 }
 
@@ -67,7 +67,9 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  text-align: start;
   gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .Title {
@@ -84,6 +86,7 @@
 
 .Tech {
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
   margin-bottom: 2rem;
 }
@@ -107,7 +110,7 @@
 }
 
 .ProjectImg {
-  width: 49%;
+  width: 48%;
   object-fit: contain;
   object-position: top left;
 }

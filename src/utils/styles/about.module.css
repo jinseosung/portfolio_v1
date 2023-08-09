@@ -33,7 +33,6 @@
 .Description {
   font-size: 1.5rem;
   margin: 0.5rem 0;
-  line-height: 1.8rem;
 }
 
 .Majors {
@@ -68,10 +67,6 @@
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
-}
-
-.MajorDescription {
-  line-height: 1.4rem;
 }
 
 .JobsTitle {
@@ -132,7 +127,6 @@
 
   .Description {
     font-size: 1rem;
-    line-height: 1.3rem;
   }
 
   .Majors {
