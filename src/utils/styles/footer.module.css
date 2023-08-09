@@ -65,3 +65,22 @@
 .Link:hover {
   color: var(--color-accent-variant);
 }
+
+@media screen and (max-width: 768px) {
+  .Container {
+    padding: 3rem 2rem;
+  }
+
+  .Title {
+    font-size: 2rem;
+    width: 10rem;
+  }
+
+  .Description {
+    font-size: 1rem;
+  }
+
+  .DescriptionIcon {
+    font-size: 1.3rem;
+  }
+}

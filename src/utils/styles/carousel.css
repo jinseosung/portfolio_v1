@@ -1,23 +1,22 @@
 .swiper {
-  padding: 1rem 3rem;
+  padding: 3rem;
+  width: 100%;
   margin-bottom: 50px;
   position: relative;
-  padding-bottom: 3rem;
 }
 
 .swiper-slide {
   height: 30rem;
-  padding: 8rem;
+  padding: 2rem;
   border-radius: 30px;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   cursor: pointer;
   box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.38);
-  position: relative;
   text-align: start;
+  overflow: hidden;
 }
 
 .swiper-slide img {
@@ -29,10 +28,6 @@
   object-fit: cover;
   border-radius: 30px;
   transition: all 0.4s ease;
-}
-
-.swiper-slide p {
-  z-index: 1;
 }
 
 .swiper-slide:hover {
@@ -59,19 +54,29 @@
 
 .project__container {
   margin: 1rem 1.5rem;
-  position: absolute;
-  top: 75%;
-  left: 0;
+  color: var(--color-text);
+  text-align: center;
+  position: relative;
+  top: 11rem;
+  z-index: 1;
 }
 
 .project__title {
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
-  color: var(--color-text);
-  position: relative;
 }
 
-.project__description {
-  color: var(--color-text);
+@media screen and (max-width: 768px) {
+  .project__container {
+    top: 12rem;
+  }
+
+  .project__title {
+    font-size: 1.2rem;
+  }
+
+  .project__description {
+    font-size: 1rem;
+  }
 }

@@ -47,6 +47,10 @@
   right: 2rem;
 }
 
+.Icon:hover {
+  opacity: 70%;
+}
+
 .ContentContainer {
   display: flex;
   gap: 1.5rem;
@@ -106,4 +110,23 @@
   width: 49%;
   object-fit: contain;
   object-position: top left;
+}
+
+
+@media screen and (max-width: 992px) {
+  .Container {
+    padding-top: 5rem;
+  }
+
+  .ContentContainer {
+    flex-direction: column;
+  }
+
+  .Img {
+    width: 100%;
+  }
+
+  .ProjectImg {
+    width: 100%;
+  }
 }

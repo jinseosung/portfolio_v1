@@ -40,3 +40,34 @@
 .DescriptionStrong {
   color: var(--color-accent-variant);
 }
+
+@media screen and (max-width: 992px) {
+  .Wrapper {
+    flex-direction: column;
+    padding: 7rem 2rem 3rem 2rem;
+  }
+
+  .ProfileImg {
+    width: 350px;
+    height: 350px;
+    bottom: 0;
+    margin-bottom: 1rem;
+  }
+
+  .Title {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .Description {
+    line-height: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ProfileImg {
+    width: 300px;
+    height: 300px;
+  }
+}

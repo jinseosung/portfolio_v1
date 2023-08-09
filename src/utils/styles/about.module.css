@@ -11,7 +11,8 @@
 .Title {
   font-size: 2.5rem;
   font-weight: 700;
-  margin: 1rem auto 2rem auto;
+  margin: 0 auto;
+  margin-bottom: 2.5rem;
   position: relative;
   z-index: 1;
   width: 14rem;
@@ -106,4 +107,41 @@
 .JobDescription {
   color: var(--color-primary);
   font-size: 0.8rem;
+}
+
+@media screen and (max-width: 992px) {
+  .JobsTitle {
+    margin: 0 auto;
+  }
+
+  .Job {
+    margin-top: 2rem;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Container {
+    padding: 3rem 2rem;
+  }
+
+  .Title {
+    font-size: 2rem;
+    width: 12rem;
+  }
+
+  .Description {
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
+
+  .Majors {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+  }
+
+  .Major {
+    width: 70%;
+  }
 }

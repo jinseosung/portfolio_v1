@@ -30,6 +30,10 @@
   font-weight: 700;
 }
 
+.ToggleBtn {
+  display: none;
+}
+
 .Menu {
   display: flex;
   gap: 0.3rem;
@@ -39,13 +43,44 @@
 .MenuItem {
   padding: 0.5rem 1rem;
   transition: all 0.4s linear;
+  border-bottom: 1px solid var(--color-primary);
 }
 
 .MenuItem:hover {
   border-bottom: 1px solid var(--color-accent);
 }
 
-.Active {
-  border: 1px solid var(--color-accent);
-  border-radius: 4px;
+@media screen and (max-width: 992px) {
+  .Container {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .Nav {
+    width: 100%;
+  }
+
+  .ToggleBtn {
+    display: block;
+    border: 0;
+    background-color: transparent;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 1.3rem;
+    right: 1rem;
+    color: var(--color-text);
+    cursor: pointer;
+  }
+
+  .Menu {
+    display: none;
+  }
+
+  .Display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 4rem;
+    gap: 1rem;
+  }
 }

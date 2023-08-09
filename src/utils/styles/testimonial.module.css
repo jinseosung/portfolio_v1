@@ -59,3 +59,26 @@
   border-radius: 8px;
   box-shadow: rgba(13, 38, 76, 0.19) 0px 9px 20px;
 }
+
+@media screen and (max-width: 768px) {
+  .Container {
+    padding: 3rem 2rem;
+  }
+
+  .Title {
+    font-size: 2rem;
+    width: 16rem;
+  }
+
+  .Description {
+    font-size: 1rem;
+  }
+
+  .Testimonial {
+    flex-direction: column;
+  }
+
+  .Testimonial:nth-child(even) .AvatarImg {
+    order: 0;
+  }
+}
