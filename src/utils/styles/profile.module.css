@@ -69,12 +69,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 10rem;
+    height: 7rem;
   }
 }
 
 @media screen and (max-width: 500px) {
   .TitleContainer {
     height: 9rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .TitleContainer {
+    height: 13rem;
   }
 }

@@ -80,3 +80,20 @@
     font-size: 1rem;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .swiper-slide {
+    height: 20rem;
+  }
+
+  .project__container {
+    margin: 0;
+    top: 7.5rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .project__container {
+    top: 7rem;
+  }
+}
