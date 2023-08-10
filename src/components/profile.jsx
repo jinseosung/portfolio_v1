@@ -8,6 +8,7 @@ const Profile = () => {
       <div className={styles.Wrapper}>
         <img className={styles.ProfileImg} src={ProfileImg} alt="profile" />
         <div>
+          <div className={styles.TitleContainer}>
           <h2
             className={styles.Title}
             aria-label="Bonjour, je suis développeuse web, Jinseo"
@@ -20,6 +21,7 @@ const Profile = () => {
             </TypeIt>{" "}
             Jinseo
           </h2>
+          </div>
           <p className={styles.Description}>
             Passionnée par le développement web, apprentie infatigable et rapide
           </p>
