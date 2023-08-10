@@ -1,5 +1,4 @@
 import React from "react";
-import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Modal from "./modal";
 
@@ -11,14 +10,14 @@ import "../utils/styles/carousel.css";
 
 import { Navigation, Pagination } from "swiper/modules";
 
-const Carousel = (props) => {
-  const [isOpen, setIsOpen] = useState(false);
-  const [projectIdx, setProjectIdx] = useState(0);
-  const toggleModal = () => {
-    !isOpen ? setIsOpen(true) : setIsOpen(false);
-  };
-
-  const projects = props.projectlists;
+const Carousel = ({
+  isOpen,
+  projectlists,
+  projectIdx,
+  setProjectIdx,
+  toggleModal,
+}) => {
+  const projects = projectlists;
   return (
     <>
       <Swiper
@@ -58,7 +57,7 @@ const Carousel = (props) => {
           </SwiperSlide>
         ))}
       </Swiper>
-      
+
       {isOpen && (
         <Modal
           toggleModal={toggleModal}
