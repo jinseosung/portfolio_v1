@@ -6,14 +6,14 @@
     "description": "J'ai pris en charge la mise en place des routes et des middlewares à l'aide de Node.js, tout en utilisant MongoDB pour créer une API REST robuste et fonctionnelle dans le cadre de ma formation chez OpenClassrooms",
     "skills": ["NodeJS", "MongoDB"],
     "github": "https://github.com/jinseosung/p7_oc",
-    "image": "../img/mon_vieux_grimoire/1.webp",
-    "modalThumbnail": "../img/mon_vieux_grimoire/2.webp",
+    "image": "/site_portfolio/img/mon_vieux_grimoire/1.webp",
+    "modalThumbnail": "/site_portfolio/img/mon_vieux_grimoire/2.webp",
     "detailImgs": [
-      "../img/mon_vieux_grimoire/3.webp",
-      "../img/mon_vieux_grimoire/4.webp",
-      "../img/mon_vieux_grimoire/5.webp",
-      "../img/mon_vieux_grimoire/6.webp",
-      "../img/mon_vieux_grimoire/7.webp"
+      "/site_portfolio/img/mon_vieux_grimoire/3.webp",
+      "/site_portfolio/img/mon_vieux_grimoire/4.webp",
+      "/site_portfolio/img/mon_vieux_grimoire/5.webp",
+      "/site_portfolio/img/mon_vieux_grimoire/6.webp",
+      "/site_portfolio/img/mon_vieux_grimoire/7.webp"
     ]
   },
   {
@@ -23,12 +23,12 @@
     "description": "En utilisant React, j'ai créé une expérience utilisateur fluide sur différentes pages, notamment la page d'accueil, les pages détaillant chaque logement avec leurs caractéristiques uniques, ainsi que la page informative dans le cadre de ma formation chez OpenClassrooms",
     "skills": ["HTML", "CSS", "JavaScript", "React"],
     "github": "https://github.com/jinseosung/p6_oc",
-    "image": "../img/kasa/1.webp",
-    "modalThumbnail": "../img/kasa/2.jpg",
+    "image": "/site_portfolio/img/kasa/1.webp",
+    "modalThumbnail": "/site_portfolio/img/kasa/2.jpg",
     "detailImgs": [
-      "../img/kasa/3.jpg",
-      "../img/kasa/4.jpg",
-      "../img/kasa/5.jpg"
+      "/site_portfolio/img/kasa/3.jpg",
+      "/site_portfolio/img/kasa/4.jpg",
+      "/site_portfolio/img/kasa/5.jpg"
     ]
   },
   {
@@ -38,9 +38,9 @@
     "description": "Réalisation de la page d'accueil d'une agence de voyage en utilisant les langages HTML et CSS dans le cadre de ma formation chez OpenClassrooms",
     "skills": ["HTML", "CSS"],
     "github": "https://jinseosung.github.io/p2_oc/",
-    "image": "../img/booki/1.webp",
-    "modalThumbnail": "../img/booki/2.jpg",
-    "detailImgs": ["../img/booki/2.jpg", "../img/booki/3.jpg"]
+    "image": "/site_portfolio/img/booki/1.webp",
+    "modalThumbnail": "/site_portfolio/img/booki/2.jpg",
+    "detailImgs": ["/site_portfolio/img/booki/2.jpg", "/site_portfolio/img/booki/3.jpg"]
   },
   {
     "id": 4,
@@ -49,12 +49,12 @@
     "description": "J'ai développé un mini-jeu interactif en utilisant JavaScript. Dans la deuxième phase du jeu, le joueur doit rapidement cliquer sur toutes les carottes qui apparaissent à l'écran.",
     "skills": ["HTML", "CSS", "JavaScript"],
     "github": "https://jinseosung.github.io/carrots-click-game/",
-    "image": "../img/carrot_game/1.webp",
-    "modalThumbnail": "../img/carrot_game/2.jpg",
+    "image": "/site_portfolio/img/carrot_game/1.webp",
+    "modalThumbnail": "/site_portfolio/img/carrot_game/2.jpg",
     "detailImgs": [
-      "../img/carrot_game/3.jpg",
-      "../img/carrot_game/4.jpg",
-      "../img/carrot_game/5.jpg"
+      "/site_portfolio/img/carrot_game/3.jpg",
+      "/site_portfolio/img/carrot_game/4.jpg",
+      "/site_portfolio/img/carrot_game/5.jpg"
     ]
   }
 ]
