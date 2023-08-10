@@ -1,8 +1,6 @@
 .Container {
   padding: 4rem;
   text-align: center;
-  background-color: var(--color-primary);
-  color: var(--color-text);
 }
 
 .Wrapper {
@@ -17,7 +15,6 @@
   position: relative;
   z-index: 1;
   width: 12rem;
-  color: var(--color-text);
 }
 
 .Description {
@@ -27,6 +24,7 @@
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
+  font-weight: 700;
 }
 
 .DescriptionIcon {
@@ -34,8 +32,9 @@
   transition: all 0.2s ease;
 }
 
-.DescriptionIcon:hover {
-  color: var(--color-accent-variant);
+.DescriptionIcon:hover,
+.Link:hover {
+  color: var(--color-accent-variant-dark);
 }
 
 .Divider {
@@ -46,7 +45,7 @@
   top: 50%;
   transform: translate(-50%, -50%);
   height: 5px;
-  background-color: var(--color-accent-variant);
+  background-color: var(--color-accent);
   z-index: -1;
 }
 
@@ -60,10 +59,6 @@
 
 .Link {
   transition: all 0.2s ease;
-}
-
-.Link:hover {
-  color: var(--color-accent-variant);
 }
 
 @media screen and (max-width: 768px) {

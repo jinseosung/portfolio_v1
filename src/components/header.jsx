@@ -28,9 +28,9 @@ const Header = () => {
           <a className={styles.MenuItem} href="#projects">
             <li>PROJETS</li>
           </a>
-          <a className={styles.MenuItem} href="#testimonials">
+          {/* <a className={styles.MenuItem} href="#testimonials">
             <li>TEMOIGNAGES</li>
-          </a>
+          </a> */}
           <a className={styles.MenuItem} href="#contact">
             <li>CONTACT</li>
           </a>

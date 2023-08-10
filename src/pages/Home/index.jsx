@@ -1,7 +1,7 @@
 import Profile from "../../components/profile";
 import About from "../../components/about";
 import Project from "../../components/project";
-import Testimonial from "../../components/testimonial";
+// import Testimonial from "../../components/testimonial";
 import { useEffect, useState } from "react";
 
 const Home = () => {
@@ -35,7 +35,7 @@ const Home = () => {
         setProjectIdx={setProjectIdx}
         toggleModal={toggleModal}
       />
-      <Testimonial />
+      {/* <Testimonial /> */}
     </div>
   );
 };
