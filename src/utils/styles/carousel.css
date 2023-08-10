@@ -7,7 +7,7 @@
 
 .swiper-slide {
   height: 30rem;
-  padding: 2rem;
+  padding: 2rem 0;
   border-radius: 30px;
   display: flex;
   flex-direction: column;
@@ -57,7 +57,7 @@
   color: var(--color-text);
   text-align: center;
   position: relative;
-  top: 11rem;
+  top: 10.3rem;
   z-index: 1;
 }
 
