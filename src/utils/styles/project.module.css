@@ -10,17 +10,17 @@
 }
 
 .Title {
+  display: inline-block;
   font-size: 2.5rem;
   font-weight: 700;
   margin: 1rem auto;
   position: relative;
   z-index: 1;
-  width: 11rem;
   color: var(--color-text);
 }
 
 .Divider {
-  width: 100%;
+  width: 135%;
   display: block;
   position: absolute;
   left: 50%;
@@ -38,6 +38,5 @@
 
   .Title {
     font-size: 2rem;
-    width: 9rem;
   }
 }

@@ -37,22 +37,26 @@ const About = () => {
             <p className={styles.MajorDescription}>VSCode, Git</p>
           </li>
         </ul>
-        <h4 className={styles.JobsTitle}>
-          Expériences<span className={styles.Divider}></span>
-        </h4>
-        <ul className={styles.Jobs}>
-          <li className={styles.Job}>
-            <img
-              className={styles.JobImg}
-              src={logoOpenClassrooms}
-              alt="logo openclassrooms"
-            />
-            <div>
-              <p className={styles.JobName}>Formation Développeur Web</p>
-              <p className={styles.JobDescription}>Décembre 2022 - Août 2023</p>
-            </div>
-          </li>
-        </ul>
+        <div className={styles.JobsContainer}>
+          <h4 className={styles.JobsTitle}>
+            Expériences<span className={styles.Divider}></span>
+          </h4>
+          <ul className={styles.Jobs}>
+            <li className={styles.Job}>
+              <img
+                className={styles.JobImg}
+                src={logoOpenClassrooms}
+                alt="logo openclassrooms"
+              />
+              <div>
+                <p className={styles.JobName}>Formation Développeur Web</p>
+                <p className={styles.JobDescription}>
+                  Décembre 2022 - Août 2023
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
   );
