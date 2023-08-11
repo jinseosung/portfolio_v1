@@ -2,6 +2,7 @@ import Profile from "../../components/profile";
 import About from "../../components/about";
 import Project from "../../components/project";
 // import Testimonial from "../../components/testimonial";
+import Contact from "../../components/contact";
 import { useEffect, useState } from "react";
 
 const Home = () => {
@@ -36,6 +37,7 @@ const Home = () => {
         toggleModal={toggleModal}
       />
       {/* <Testimonial /> */}
+      <Contact />
     </div>
   );
 };

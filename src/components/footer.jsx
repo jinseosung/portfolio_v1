@@ -1,20 +1,12 @@
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import styles from "../utils/styles/footer.module.css";
 
 const Footer = () => {
   return (
-    <footer className={styles.Container} id="contact">
+    <footer className={styles.Container}>
       <div className={styles.Wrapper}>
-        <h3 className={styles.Title}>
-          Contact<span className={styles.Divider}></span>
-        </h3>
-        <Link className={styles.Description} to="mailto:jinseosung15@gmail.com">
-          <p>jinseosung15@gmail.com</p>
-          <FontAwesomeIcon icon={faEnvelope} className={styles.DescriptionIcon} />
-        </Link>
         <ul className={styles.Links}>
           <Link
             className={styles.Link}
