@@ -115,7 +115,6 @@
   object-position: top left;
 }
 
-
 @media screen and (max-width: 992px) {
   .Container {
     padding-top: 5rem;
@@ -131,5 +130,13 @@
 
   .ProjectImg {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Container {
+    width: 100vw;
+    max-width: 100vw;
+    max-height: 100vh;
   }
 }
