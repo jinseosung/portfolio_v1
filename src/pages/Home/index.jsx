@@ -1,8 +1,8 @@
-import Profile from "../../components/profile";
-import About from "../../components/about";
-import Project from "../../components/project";
+import Profile from "../../components/Profile";
+import About from "../../components/About";
+import Project from "../../components/Project";
 // import Testimonial from "../../components/testimonial";
-import Contact from "../../components/contact";
+import Contact from "../../components/Contact";
 import { useEffect, useState } from "react";
 
 const Home = () => {

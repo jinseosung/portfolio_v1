@@ -1,6 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import Modal from "./modal";
+import Modal from "./Modal";
 
 import "swiper/css";
 import "swiper/css/navigation";

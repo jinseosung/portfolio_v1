@@ -1,6 +1,6 @@
 import styles from "../utils/styles/project.module.css";
 import projectLists from "../datas/project.json";
-import Carousel from "./carousel";
+import Carousel from "./Carousel";
 
 const Project = ({
   isOpen,
