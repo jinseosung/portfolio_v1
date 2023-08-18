@@ -28,13 +28,24 @@ const Modal = ({ toggleModal, projects, projectIdx }) => {
                 <span key={idx}>{skill}</span>
               ))}
             </div>
-            <Link
-              target="_blank"
-              to={selectedProject.github}
-              className={styles.Link}
-            >
-              Visiter le GitHub
-            </Link>
+            <div className={styles.LinkContainer}>
+              <Link
+                target="_blank"
+                to={selectedProject.github}
+                className={styles.Link}
+              >
+                Visiter le code source
+              </Link>
+              {selectedProject.githubPage && (
+                <Link
+                  target="_blank"
+                  to={selectedProject.githubPage}
+                  className={styles.Link}
+                >
+                  Visiter le site
+                </Link>
+              )}
+            </div>
           </div>
         </div>
         <div className={styles.ProjectImagesContainer}>

@@ -101,6 +101,7 @@
   padding: 0.5rem 1.5rem;
   border-radius: 15px;
   background-color: var(--color-accent-variant-dark);
+  margin-right: 1rem;
 }
 
 .ProjectImagesContainer {

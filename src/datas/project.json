@@ -37,7 +37,8 @@
     "subTitle": "Réalisation de la page d'accueil",
     "description": "Réalisation de la page d'accueil d'une agence de voyage en utilisant les langages HTML et CSS dans le cadre de ma formation chez OpenClassrooms",
     "skills": ["HTML", "CSS"],
-    "github": "https://jinseosung.github.io/p2_oc/",
+    "github": "https://github.com/jinseosung/p2_oc",
+    "githubPage": "https://jinseosung.github.io/p2_oc/",
     "image": "../img/booki/1.webp",
     "modalThumbnail": "../img/booki/2.jpg",
     "detailImgs": ["../img/booki/2.jpg", "../img/booki/3.jpg"]
@@ -48,7 +49,8 @@
     "subTitle": "Développement d'un jeu simple avec JavaScript",
     "description": "J'ai développé un mini-jeu interactif en utilisant JavaScript. Dans la deuxième phase du jeu, le joueur doit rapidement cliquer sur toutes les carottes qui apparaissent à l'écran.",
     "skills": ["HTML", "CSS", "JavaScript"],
-    "github": "https://jinseosung.github.io/carrots-click-game/",
+    "github": "https://github.com/jinseosung/carrots-click-game",
+    "githubPage": "https://jinseosung.github.io/carrots-click-game/",
     "image": "../img/carrot_game/1.webp",
     "modalThumbnail": "../img/carrot_game/2.jpg",
     "detailImgs": [
