@@ -33,7 +33,7 @@ const About = () => {
           </li>
           <li className={styles.Major}>
             <FontAwesomeIcon icon={faFire} className={styles.Icon} />
-            <p className={styles.MajorTitle}>Tools</p>
+            <p className={styles.MajorTitle}>Outils</p>
             <p className={styles.MajorDescription}>VSCode, Git</p>
           </li>
         </ul>
