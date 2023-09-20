@@ -21,8 +21,9 @@
     "title": "Kasa",
     "subTitle": "Front-end du site avec React",
     "description": "En utilisant React, j'ai créé une expérience utilisateur fluide sur différentes pages, notamment la page d'accueil, les pages détaillant chaque logement avec leurs caractéristiques uniques, ainsi que la page informative dans le cadre de ma formation chez OpenClassrooms",
-    "skills": ["HTML", "CSS", "JavaScript", "React"],
+    "skills": ["React", "Styled-Components"],
     "github": "https://github.com/jinseosung/p6_oc",
+    "githubPage": "https://jinseosung.github.io/p6_oc/",
     "image": "../img/kasa/1.webp",
     "modalThumbnail": "../img/kasa/2.jpg",
     "detailImgs": [
@@ -36,7 +37,7 @@
     "title": "Booki",
     "subTitle": "Réalisation de la page d'accueil",
     "description": "Réalisation de la page d'accueil d'une agence de voyage en utilisant les langages HTML et CSS dans le cadre de ma formation chez OpenClassrooms",
-    "skills": ["HTML", "CSS"],
+    "skills": ["HTML", "Sass"],
     "github": "https://github.com/jinseosung/p2_oc",
     "githubPage": "https://jinseosung.github.io/p2_oc/",
     "image": "../img/booki/1.webp",
@@ -58,5 +59,16 @@
       "../img/carrot_game/4.jpg",
       "../img/carrot_game/5.jpg"
     ]
+  },
+  {
+    "id": 5,
+    "title": "Nwitter",
+    "subTitle": "Clonage du fonctionnement de Twitter",
+    "description": "Projet personnel. je suis en train de cloner le fonctionnement de Twitter, y compris son style, afin de perfectionner les compétences suivantes :",
+    "skills": ["React", "Styled-Components", "Firebase"],
+    "github": "https://github.com/jinseosung/nwitter",
+    "image": "../img/nwitter/1.webp",
+    "modalThumbnail": "../img/nwitter/2.webp",
+    "detailImgs": []
   }
 ]
