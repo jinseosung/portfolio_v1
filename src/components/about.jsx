@@ -25,7 +25,7 @@ const About = () => {
             <FontAwesomeIcon icon={faCode} className={styles.Icon} />
             <p className={styles.MajorTitle}>Front-end</p>
             <p className={styles.MajorDescription}>
-              HTML, CSS, JavaScript, React, API Web
+              HTML5, CSS3, Sass, JavaScript, React, API Web
             </p>
           </li>
           <li className={styles.Major}>
