@@ -2,6 +2,7 @@ import styles from "../utils/styles/about.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode, faServer, faFire } from "@fortawesome/free-solid-svg-icons";
 import logoOpenClassrooms from "../assets/logo_openclassrooms.png";
+import CV from '../assets/CV_SUNG_Jinseo.pdf'
 
 const About = () => {
   return (
@@ -12,11 +13,12 @@ const About = () => {
           <span className={styles.Divider}></span>
         </h3>
         <p className={styles.Description}>
-          Fortement motivée par les défis du développement web, <br /> je suis
-          prête à explorer de nouvelles opportunités et à contribuer avec
-          enthousiasme à des projets innovants. Dotée d'un esprit collaboratif,
-          j'apprécie travailler en équipe pour créer des solutions
-          technologiques percutantes
+          Fortement motivée par les défis du développement web,
+          <br /> je suis prête à explorer de nouvelles opportunités et à
+          contribuer avec enthousiasme à des projets innovants.
+          <br />
+          Dotée d'un esprit collaboratif, j'apprécie travailler en équipe pour
+          créer des solutions technologiques percutantes.
         </p>
         <ul className={styles.Majors}>
           <li className={styles.Major}>
@@ -57,6 +59,13 @@ const About = () => {
             </li>
           </ul>
         </div>
+        <a
+          href={CV}
+          target="_black"
+          className={styles.LinkCV}
+        >
+          Télécharger mon CV
+        </a>
       </div>
     </section>
   );

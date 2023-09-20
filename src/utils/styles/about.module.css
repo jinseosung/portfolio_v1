@@ -111,6 +111,24 @@
   font-size: 0.8rem;
 }
 
+.LinkCV {
+  display: inline-block;
+  background-color: var(--color-primary-variant);
+  padding: 1rem 2rem;
+  color: var(--color-text);
+  border-radius: 2rem;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  border: none;
+  font-size: 1rem;
+  margin-top: 1.5rem;
+}
+
+.LinkCV:hover {
+  background-color: var(--color-accent-variant-dark);
+  color: var(--color-text);
+}
+
 @media screen and (max-width: 992px) {
   .JobsTitle {
     margin: 0 auto;
