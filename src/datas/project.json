@@ -34,6 +34,23 @@
   },
   {
     "id": 3,
+    "title": "Nwitter",
+    "subTitle": "Clonage du fonctionnement de Twitter",
+    "description": "Projet personnel. J'ai recréé le fonctionnement de Twitter, y compris son style, dans le but de perfectionner mes compétences. Cette expérience m'a également permis de renouer avec Firebase, nous dispensant de développer une solution backend.",
+    "skills": ["React", "Styled-Components", "Firebase"],
+    "github": "https://github.com/jinseosung/nwitter",
+    "githubPage": "https://jinseosung.github.io/nwitter/",
+    "image": "../img/nwitter/1.jpg",
+    "modalThumbnail": "../img/nwitter/1.jpg",
+    "detailImgs": [
+      "../img/nwitter/2.jpg",
+      "../img/nwitter/3.jpg",
+      "../img/nwitter/4.jpg",
+      "../img/nwitter/5.jpg"
+    ]
+  },
+  {
+    "id": 4,
     "title": "Booki",
     "subTitle": "Réalisation de la page d'accueil",
     "description": "Réalisation de la page d'accueil d'une agence de voyage en utilisant les langages HTML et CSS dans le cadre de ma formation chez OpenClassrooms",
@@ -45,7 +62,7 @@
     "detailImgs": ["../img/booki/2.jpg", "../img/booki/3.jpg"]
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Jeu de clic sur les carottes",
     "subTitle": "Développement d'un jeu simple avec JavaScript",
     "description": "J'ai développé un mini-jeu interactif en utilisant JavaScript. Dans la deuxième phase du jeu, le joueur doit rapidement cliquer sur toutes les carottes qui apparaissent à l'écran.",
@@ -59,16 +76,5 @@
       "../img/carrot_game/4.jpg",
       "../img/carrot_game/5.jpg"
     ]
-  },
-  {
-    "id": 5,
-    "title": "Nwitter",
-    "subTitle": "Clonage du fonctionnement de Twitter",
-    "description": "Projet personnel. je suis en train de cloner le fonctionnement de Twitter, y compris son style, afin de perfectionner les compétences suivantes :",
-    "skills": ["React", "Styled-Components", "Firebase"],
-    "github": "https://github.com/jinseosung/nwitter",
-    "image": "../img/nwitter/1.webp",
-    "modalThumbnail": "../img/nwitter/2.webp",
-    "detailImgs": []
   }
 ]
